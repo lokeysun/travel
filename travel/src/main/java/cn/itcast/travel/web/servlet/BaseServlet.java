@@ -57,4 +57,8 @@ public class BaseServlet extends HttpServlet {
          return  mapper.writeValueAsString(obj);
 
     }
+
+    public void test(){
+        System.out.println("重新提交一次");
+    }
 }
